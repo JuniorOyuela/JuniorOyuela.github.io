@@ -1,0 +1,87 @@
+/*############################# BODY ##################################*/
+Body{
+    border: 1rem dotted red;
+    background-color: hsla(120, 50%, 50%);
+    margin: 2rem;
+    padding: 2rem;
+}
+
+
+
+/***************************** HEADER ***********************************/
+header {
+    background-color: hsla(240, 50%, 50%);
+    border: 0.5em groove red;
+}
+
+header h1{
+    
+    font-family: 'Rancho', serif;
+    font-style: italic;
+    font-size: 5em;
+
+    text-align:center;
+    text-shadow: grey 0.10em 0.10em 0.10em;*/
+}
+
+/******************************* MAIN ************************************/
+main{
+    font-family:cursive;
+    border: 0.5em double hsl(300, 100%, 50%) 
+}
+
+main h1{
+    color:blueviolet;
+    text-align:center;
+}
+
+main h2{
+    color:red;
+    text-align:left;
+}
+
+
+main p{
+ 
+     width: 100%;
+     border-style: double;
+     /*color: blueviolet;*/
+     /*width: 80%;*/
+     /*text-align:justify;*/
+ }
+
+ main p::first-line {
+    color:yellow
+}
+main ul{
+    font-family: 'Tangerine', serif;
+    font-size: 2rem;
+}
+
+ main img{
+    /*display: block;
+    margin: 0 auto;*/
+     border-style: double;
+     width: 400px;
+     height: 400px;
+ 
+ }
+ main #contenedorimagenesperros{
+    background-color:hsl(60, 100%, 50%);
+    width: 820px;
+    display: block;
+    margin: 0 auto;
+}
+/***************************** FOOTER ***********************************/
+footer{
+    background-color: hsla(360, 50%, 50%);
+    border-style: double;
+    border-color:red;
+}
+
+footer a:hover {
+    font-family: 'Tangerine', serif;
+    color: greenyellow;
+}
+
+/***************************** ESPECIFICOS *******************************/
