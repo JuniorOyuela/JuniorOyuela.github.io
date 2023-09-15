@@ -25,9 +25,11 @@ header h1{
 }
 header nav ul {
     display:flex;
+    list-style-type: none;
+    padding: 0;
 }
 header nav ul li{
-    margin-right:2em;
+    margin-right:1em;
 }
 
 /******************************* MAIN ************************************/
