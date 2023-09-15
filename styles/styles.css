@@ -21,13 +21,19 @@ header h1{
     font-size: 5em;
 
     text-align:center;
-    text-shadow: grey 0.10em 0.10em 0.10em;*/
+    text-shadow: grey 0.10em 0.10em 0.10em;
+}
+header nav ul {
+    display:flex;
+}
+header nav ul li{
+    margin-right:2em;
 }
 
 /******************************* MAIN ************************************/
 main{
     font-family:cursive;
-    border: 0.5em double hsl(300, 100%, 50%) 
+    border: 0.5em double hsl(300, 100%, 50%);
 }
 
 main h1{
@@ -51,7 +57,7 @@ main p{
  }
 
  main p::first-line {
-    color:yellow
+    color:yellow;
 }
 main ul{
     font-family: 'Tangerine', serif;
