@@ -68,13 +68,13 @@ main ul{
     /*display: block;
     margin: 0 auto;*/
      border-style: double;
-     width: 400px;
-     height: 400px;
+     width: 350px;
+     height: 350px;
  
  }
  main #contenedorimagenesperros{
     background-color:hsl(60, 100%, 50%);
-    width: 820px;
+    width: 800px;
     display: block;
     margin: 0 auto;
 }
