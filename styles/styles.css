@@ -32,10 +32,18 @@ header nav ul li{
     margin-right:1em;
 }
 
+/**************************** CONTENEDOR *********************************/
+
+.contenedor {
+    display:flex;
+}
+
+
 /******************************* MAIN ************************************/
 main{
     font-family:cursive;
     border: 0.5em double hsl(300, 100%, 50%);
+    width: 80%;
 }
 
 main h1{
@@ -70,17 +78,24 @@ main ul{
     /*display: block;
     margin: 0 auto;*/
      border-style: double;
-     width: 350px;
-     height: 350px;
+     width: 50%;
+     height: 400px;
  
  }
  main #contenedorimagenesperros{
     background-color:hsl(60, 100%, 50%);
-    width: 800px;
-    display: block;
+    /*Width: 800px;*/
+    display: flex;
     margin: 0 auto;
 }
+/***************************** ASIDE ***********************************/
+aside {
+    font-family:cursive;
+    border: 0.5em double hsl(300, 100%, 50%);
+    width: 20%;
+}
 /***************************** FOOTER ***********************************/
+
 footer{
     background-color: hsla(360, 50%, 50%);
     border-style: double;
