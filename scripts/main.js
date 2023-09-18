@@ -8,7 +8,6 @@
 document.querySelector("h1").onclick = function () {funcionElementoClick()}
 
 
-
 function funcionElementoClick(){
     alert("Haz hecho Click en el elemento !")
 

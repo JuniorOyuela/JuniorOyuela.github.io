@@ -1,17 +1,19 @@
 /*############################# BODY ##################################*/
 Body{
-    border: 1rem dotted red;
+    border: 1rem double royalblue;
     background-color: hsla(120, 50%, 50%);
-    margin: 2rem;
-    padding: 2rem;
-}
 
+    margin: 1rem;
+    padding: 1rem;
+}
 
 
     /***************************** HEADER ***********************************/
     header {
         background-color: hsla(240, 50%, 50%);
         border: 0.5em groove red;
+        border: 0.5em double hsl(300, 100%, 50%);
+
     }
 
     header h1{
@@ -23,13 +25,30 @@ Body{
         text-align:center;
         text-shadow: grey 0.10em 0.10em 0.10em;
     }
-    header nav ul {
+
+    /***************************** NAV ***********************************/
+    nav {
         display:flex;
-        list-style-type: none;
-        padding: 0;
+        border: 0.5em double hsl(300, 100%, 50%);
+        background-color: hsla(240, 50%, 50%);
+        align-items: first baseline;
+       
     }
-    header nav ul li{
+
+    nav ul {
+        display:flex;
+        border: 0.1em groove green;
+        list-style-type: none;
+    }
+    
+    nav ul li{
         margin-right:1em;
+    }
+
+    nav form{
+        border: 0.1em groove green;
+        margin-right: 2em;
+        margin-left: auto;
     }
 
     /**************************** CONTENEDOR *********************************/
@@ -43,32 +62,41 @@ Body{
         main{
             font-family:cursive;
             border: 0.5em double hsl(300, 100%, 50%);
+            background-color: rgb(191, 64, 121);
+            background-color: hsl(275, 50%, 50%);
+            background-color: hsl(155, 50%, 50%);
+            background-color: hsl(0, 0%, 100%);
+            padding:1em;
             width: 80%;
         }
 
         main h1{
+            text-shadow: grey 0.10em 0.10em 0.10em;
             color:blueviolet;
+            color:black;
             text-align:center;
         }
 
         main h2{
-            color:red;
+            /* color:hsl(260, 100%, 50%); */
+            text-shadow: grey 0.10em 0.10em 0.10em;
             text-align:left;
         }
 
 
         main p{
         
-            width: 100%;
-            border-style: double;
+            /* width: 100%; */
+            /* border-style: double; */
             /*color: blueviolet;*/
             /*width: 80%;*/
-            /*text-align:justify;*/
+            text-align:justify;
         }
 
         main p::first-line {
-            color:yellow;
+            /* color:yellow; */
         }
+
         main ul{
             font-family: 'Tangerine', serif;
             font-size: 2rem;
@@ -80,8 +108,8 @@ Body{
             border-style: double;
             width: 50%;
             height: 400px;
-        
         }
+
         main #ContenedorImagenesPerros{
             display: flex;
             background-color:hsl(60, 100%, 50%);
@@ -90,18 +118,22 @@ Body{
         }
 
         main .ContenedorVideos{
+            border-style: double;
             display:flex;
             height:300px;
-        
         }
+
         main .ContenedorVideos iframe,
-        main .ContenedorVideos iframe{
+        main .ContenedorVideos video{
+            border-style: double;
             width: 50%;
         }
+   
         /***************************** ASIDE ***********************************/
         aside {
             font-family:cursive;
             border: 0.5em double hsl(300, 100%, 50%);
+            background-color: hsla(240, 50%, 50%);
             width: 20%;
         }
     
@@ -109,9 +141,9 @@ Body{
     /***************************** FOOTER ***********************************/
 
     footer{
-        background-color: hsla(360, 50%, 50%);
+        background-color: hsla(240, 50%, 50%);
         border-style: double;
-        border-color:red;
+        border: 0.5em double hsl(300, 100%, 50%);
     }
 
     footer a:hover {
