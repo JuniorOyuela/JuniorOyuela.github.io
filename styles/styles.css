@@ -8,103 +8,115 @@ Body{
 
 
 
-/***************************** HEADER ***********************************/
-header {
-    background-color: hsla(240, 50%, 50%);
-    border: 0.5em groove red;
-}
+    /***************************** HEADER ***********************************/
+    header {
+        background-color: hsla(240, 50%, 50%);
+        border: 0.5em groove red;
+    }
 
-header h1{
+    header h1{
+        
+        font-family: 'Rancho', serif;
+        font-style: italic;
+        font-size: 5em;
+
+        text-align:center;
+        text-shadow: grey 0.10em 0.10em 0.10em;
+    }
+    header nav ul {
+        display:flex;
+        list-style-type: none;
+        padding: 0;
+    }
+    header nav ul li{
+        margin-right:1em;
+    }
+
+    /**************************** CONTENEDOR *********************************/
+
+    .ContenedorMainAsides {
+        display:flex;
+    }
+
+
+        /******************************* MAIN ************************************/
+        main{
+            font-family:cursive;
+            border: 0.5em double hsl(300, 100%, 50%);
+            width: 80%;
+        }
+
+        main h1{
+            color:blueviolet;
+            text-align:center;
+        }
+
+        main h2{
+            color:red;
+            text-align:left;
+        }
+
+
+        main p{
+        
+            width: 100%;
+            border-style: double;
+            /*color: blueviolet;*/
+            /*width: 80%;*/
+            /*text-align:justify;*/
+        }
+
+        main p::first-line {
+            color:yellow;
+        }
+        main ul{
+            font-family: 'Tangerine', serif;
+            font-size: 2rem;
+        }
+
+        main img{
+            /*display: block;
+            margin: 0 auto;*/
+            border-style: double;
+            width: 50%;
+            height: 400px;
+        
+        }
+        main #ContenedorImagenesPerros{
+            display: flex;
+            background-color:hsl(60, 100%, 50%);
+            /*Width: 800px;*/
+            /*margin: 0 auto;*/
+        }
+
+        main .ContenedorVideos{
+            display:flex;
+            height:300px;
+        
+        }
+        main .ContenedorVideos iframe,
+        main .ContenedorVideos iframe{
+            width: 50%;
+        }
+        /***************************** ASIDE ***********************************/
+        aside {
+            font-family:cursive;
+            border: 0.5em double hsl(300, 100%, 50%);
+            width: 20%;
+        }
     
-    font-family: 'Rancho', serif;
-    font-style: italic;
-    font-size: 5em;
+    
+    /***************************** FOOTER ***********************************/
 
-    text-align:center;
-    text-shadow: grey 0.10em 0.10em 0.10em;
-}
-header nav ul {
-    display:flex;
-    list-style-type: none;
-    padding: 0;
-}
-header nav ul li{
-    margin-right:1em;
-}
+    footer{
+        background-color: hsla(360, 50%, 50%);
+        border-style: double;
+        border-color:red;
+    }
 
-/**************************** CONTENEDOR *********************************/
+    footer a:hover {
+        font-family: 'Tangerine', serif;
+        color: greenyellow;
+    }
 
-.contenedor {
-    display:flex;
-}
-
-
-/******************************* MAIN ************************************/
-main{
-    font-family:cursive;
-    border: 0.5em double hsl(300, 100%, 50%);
-    width: 80%;
-}
-
-main h1{
-    color:blueviolet;
-    text-align:center;
-}
-
-main h2{
-    color:red;
-    text-align:left;
-}
-
-
-main p{
- 
-     width: 100%;
-     border-style: double;
-     /*color: blueviolet;*/
-     /*width: 80%;*/
-     /*text-align:justify;*/
- }
-
- main p::first-line {
-    color:yellow;
-}
-main ul{
-    font-family: 'Tangerine', serif;
-    font-size: 2rem;
-}
-
- main img{
-    /*display: block;
-    margin: 0 auto;*/
-     border-style: double;
-     width: 50%;
-     height: 400px;
- 
- }
- main #contenedorimagenesperros{
-    background-color:hsl(60, 100%, 50%);
-    /*Width: 800px;*/
-    display: flex;
-    margin: 0 auto;
-}
-/***************************** ASIDE ***********************************/
-aside {
-    font-family:cursive;
-    border: 0.5em double hsl(300, 100%, 50%);
-    width: 20%;
-}
-/***************************** FOOTER ***********************************/
-
-footer{
-    background-color: hsla(360, 50%, 50%);
-    border-style: double;
-    border-color:red;
-}
-
-footer a:hover {
-    font-family: 'Tangerine', serif;
-    color: greenyellow;
-}
-
-/***************************** ESPECIFICOS *******************************/
+    /***************************** ESPECIFICOS *******************************/

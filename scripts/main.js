@@ -17,9 +17,9 @@ function funcionElementoClick(){
     
     
     const elementoh2 = document.querySelector("main h2")
-        elementoh2.textContent="JJAJAJAJAJAJJAJAJAAJAJA"
+        elementoh2.textContent="Pronto volaran a Marte !"
         elementoh2.setAttribute("style","text-align: center")
-        elementoh2.style.textAlign="right"
+        elementoh2.style.textAlign="center"
         elementoh2.style.color="blue"
         elementoh2.style.fontSize="3em"
         elementoh2.style.textShadow = "grey 0.10em 0.10em 0.0em"
