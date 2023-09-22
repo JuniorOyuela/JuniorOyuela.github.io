@@ -1,24 +1,27 @@
-<table>
-  <thead>
-    <tr>
-      <th>Items</th>
-      <th scope="col">Expenditure</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Donuts</th>
-      <td>3,000</td>
-    </tr>
-    <tr>
-      <th scope="row">Stationery</th>
-      <td>18,000</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <th scope="row">Totals</th>
-      <td>21,000</td>
-    </tr>
-  </tfoot>
-</table>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mostrar contenido de párrafos</title>
+</head>
+<body>
+    <p class="parrafo">Este es el primer párrafo. Haz clic en él para mostrar su contenido.</p>
+    <p class="parrafo">Este es el segundo párrafo. Haz clic en él para mostrar su contenido.</p>
+    <p class="parrafo">Este es el tercer párrafo. Haz clic en él para mostrar su contenido.</p>
+
+    <script>
+        // Obtén una lista de todos los elementos con la clase "parrafo"
+        var parrafos = document.querySelectorAll(".parrafo");
+
+        // Agrega un evento de clic a cada párrafo
+        parrafos.forEach(function(parrafo) {
+            parrafo.addEventListener("click", function() {
+                // Obtén el contenido del párrafo clickeado
+                var contenido = parrafo.textContent;
+
+                // Muestra una alerta con el contenido del párrafo
+                alert(contenido);
+            });
+        });
+    </script>
+</body>
+</html>

@@ -23,11 +23,10 @@ function funcionElementoClick(){
         elementoh2.style.fontSize="3em"
         elementoh2.style.textShadow = "grey 0.10em 0.10em 0.0em"
     
-        alert(elementoh2.getAttribute("style"))
-    
+
     
     const parrafos = document.querySelectorAll("main p")
-    for (var i=0; i<parrafos.length; i++) {parrafos[i].style.color="white"}
+    for (var i=0; i<parrafos.length; i++) {parrafos[i].style.color="yellow"}
     
 
 }

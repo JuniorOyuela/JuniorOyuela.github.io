@@ -131,10 +131,15 @@ Body{
    
         /***************************** ASIDE ***********************************/
         aside {
-            font-family:cursive;
             border: 0.5em double hsl(300, 100%, 50%);
             background-color: hsla(240, 50%, 50%);
             width: 20%;
+            padding:1em;
+
+
+            font-family:cursive;
+            color:white;
+
         }
     
     
