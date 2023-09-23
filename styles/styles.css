@@ -59,7 +59,6 @@ Body{
         /******************************* MAIN ************************************/
         main{
             font-family:cursive;
-            border: 0.5em double hsl(300, 100%, 50%);
             border: 0.1em solid darkblue;
             background-color: hsl(0, 0%, 100%);
             padding:1em;
@@ -68,14 +67,11 @@ Body{
 
         main h1{
             text-shadow: grey 0.10em 0.10em 0.10em;
-            color:blueviolet;
-            color:black;
             text-align:center;
         }
 
         main h2{
             text-shadow: grey 0.10em 0.10em 0.10em;
-            text-align:left;
         }
 
 
@@ -87,11 +83,6 @@ Body{
             /* color:yellow; */
         }
 
-        main ul{
-            font-family: 'Tangerine', serif;
-            font-size: 2rem;
-        }
-
         main img{
             border-style: double;
             width: 50%;
@@ -100,7 +91,6 @@ Body{
 
         main #ContenedorImagenesPerros{
             display: flex;
-            background-color:hsl(60, 100%, 50%);
         }
 
         main .ContenedorVideos{
@@ -137,12 +127,11 @@ Body{
         background-color: hsla(240, 50%, 50%);
         padding:1em;
         color: white;
-
     }
 
     footer a:hover {
         font-family: 'Tangerine', serif;
-        color: greenyellow;
+        color: red;
     }
 
     /***************************** ESPECIFICOS *******************************/
@@ -152,7 +141,5 @@ Body{
     footer{
         border: 0.1em solid darkblue;
         border-radius: 0.33em;
-
-        background-image: linear-gradient(to right bottom, #0007ff, #0021fe, #002ffd, #083afc, #1544fa, #2b4dfa, #3a56f9, #465ef8, #5869f9, #6874f9, #767ffa, #838afa);
         background-image: linear-gradient(to right bottom, #060a90, #051091, #041491, #031892, #031c92, #18269b, #2630a3, #313aac, #474dbf, #5c61d3, #6f75e6, #838afa);
     }
