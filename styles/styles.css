@@ -10,18 +10,15 @@ Body{
 
     /***************************** HEADER ***********************************/
     header {
-        background-color: hsla(240, 50%, 50%);
-        border: 0.5em groove red;
         border: 0.5em double hsl(300, 100%, 50%);
+        background-color: hsla(240, 50%, 50%);
 
     }
 
     header h1{
-        
         font-family: 'Rancho', serif;
         font-style: italic;
         font-size: 5em;
-
         text-align:center;
         text-shadow: grey 0.10em 0.10em 0.10em;
     }
@@ -32,21 +29,22 @@ Body{
         border: 0.5em double hsl(300, 100%, 50%);
         background-color: hsla(240, 50%, 50%);
         align-items: first baseline;
-       
     }
 
     nav ul {
         display:flex;
-        border: 0.1em groove green;
         list-style-type: none;
     }
     
     nav ul li{
         margin-right:1em;
+        font-size: 1.25em;
+        color: white;
+        text-shadow: black 0.10em 0.10em 0.10em;
+
     }
 
     nav form{
-        border: 0.1em groove green;
         margin-right: 2em;
         margin-left: auto;
     }
@@ -62,9 +60,7 @@ Body{
         main{
             font-family:cursive;
             border: 0.5em double hsl(300, 100%, 50%);
-            background-color: rgb(191, 64, 121);
-            background-color: hsl(275, 50%, 50%);
-            background-color: hsl(155, 50%, 50%);
+            border: 0.1em solid darkblue;
             background-color: hsl(0, 0%, 100%);
             padding:1em;
             width: 80%;
@@ -78,22 +74,16 @@ Body{
         }
 
         main h2{
-            /* color:hsl(260, 100%, 50%); */
             text-shadow: grey 0.10em 0.10em 0.10em;
             text-align:left;
         }
 
 
         main p{
-        
-            /* width: 100%; */
-            /* border-style: double; */
-            /*color: blueviolet;*/
-            /*width: 80%;*/
             text-align:justify;
         }
 
-        main p::first-line {
+        main p::first-line{
             /* color:yellow; */
         }
 
@@ -103,8 +93,6 @@ Body{
         }
 
         main img{
-            /*display: block;
-            margin: 0 auto;*/
             border-style: double;
             width: 50%;
             height: 400px;
@@ -113,8 +101,6 @@ Body{
         main #ContenedorImagenesPerros{
             display: flex;
             background-color:hsl(60, 100%, 50%);
-            /*Width: 800px;*/
-            /*margin: 0 auto;*/
         }
 
         main .ContenedorVideos{
@@ -136,19 +122,22 @@ Body{
             width: 20%;
             padding:1em;
 
-
             font-family:cursive;
             color:white;
 
         }
-    
+        aside h2{
+            text-shadow: black 0.10em 0.10em 0.10em;
+        }
     
     /***************************** FOOTER ***********************************/
 
     footer{
-        background-color: hsla(240, 50%, 50%);
-        border-style: double;
         border: 0.5em double hsl(300, 100%, 50%);
+        background-color: hsla(240, 50%, 50%);
+        padding:1em;
+        color: white;
+
     }
 
     footer a:hover {
@@ -157,3 +146,13 @@ Body{
     }
 
     /***************************** ESPECIFICOS *******************************/
+    header,
+    nav,
+    aside,
+    footer{
+        border: 0.1em solid darkblue;
+        border-radius: 0.33em;
+
+        background-image: linear-gradient(to right bottom, #0007ff, #0021fe, #002ffd, #083afc, #1544fa, #2b4dfa, #3a56f9, #465ef8, #5869f9, #6874f9, #767ffa, #838afa);
+        background-image: linear-gradient(to right bottom, #060a90, #051091, #041491, #031892, #031c92, #18269b, #2630a3, #313aac, #474dbf, #5c61d3, #6f75e6, #838afa);
+    }
