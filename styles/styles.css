@@ -116,6 +116,7 @@ Body{
             color:white;
 
         }
+
         aside h2{
             text-shadow: black 0.10em 0.10em 0.10em;
         }
@@ -129,9 +130,12 @@ Body{
         color: white;
     }
 
+    Footer a{
+        color:yellow;
+    }
+
     footer a:hover {
-        font-family: 'Tangerine', serif;
-        color: red;
+        color: black;
     }
 
     /***************************** ESPECIFICOS *******************************/
