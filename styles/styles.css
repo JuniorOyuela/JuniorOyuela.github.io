@@ -99,6 +99,12 @@ Body{
             height:300px;
         }
 
+         main .ContenedorAppsheet{
+            border-style: double;
+            display:flex;
+            height:667px;
+        }
+
         main .ContenedorVideos iframe,
         main .ContenedorVideos video{
             border-style: double;
