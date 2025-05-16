@@ -110,6 +110,10 @@ Body{
             border-style: double;
             width: 50%;
         }
+        main .ContenedorAppsheet iframe{
+            border-style: double;
+            width: 50%;
+        }
    
         /***************************** ASIDE ***********************************/
         aside {
