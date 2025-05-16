@@ -102,7 +102,7 @@ Body{
          main .ContenedorAppsheet{
             border-style: double;
             display:flex;
-            height:667px;
+            height:767px;
         }
 
         main .ContenedorVideos iframe,
